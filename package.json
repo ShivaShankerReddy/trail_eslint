@@ -1,0 +1,23 @@
+{
+  "name": "trail_eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivaShankerReddy/trail_eslint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivaShankerReddy/trail_eslint/issues"
+  },
+  "homepage": "https://github.com/ShivaShankerReddy/trail_eslint#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
