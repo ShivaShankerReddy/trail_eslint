@@ -1,4 +1,4 @@
-name: CI
+name: lint
 
 # Triggered when code is pushed to any branch in a repository
 on: push

@@ -1,13 +1,20 @@
 {
     "env": {
-        "browser": true,
-        "es6": true
+        "node": true,
+        "es6": true,
+        "commonjs": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
     "parserOptions": {
         "sourceType": "module"
     },
-    "ignorePatterns": ["**/vendor/*.js"],
+    "ignorePatterns": ["node_modules/*.js"],
     "rules": {
         "indent": [
             "error",
@@ -23,6 +30,7 @@
         ],
         "no-var": "error",
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
-        "no-undef": ["error", { "typeof": true }]
+        "no-undef": ["error", { "typeof": true }],
+        "prettier/prettier": "error"
     }
 }
