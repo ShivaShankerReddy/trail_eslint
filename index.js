@@ -1,10 +1,10 @@
-var hello = "hello world";
+let hello = 'hello world';
 
 
-console.log("hello:   ", hello);
+console.log('hello:   ', hello);
 
 const hello1 = () => {
-    console.log("hello func");
+  console.log('hello func');
 };
 
 hello1();

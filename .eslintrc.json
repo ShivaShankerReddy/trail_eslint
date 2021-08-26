@@ -7,6 +7,7 @@
     "parserOptions": {
         "sourceType": "module"
     },
+    "ignorePatterns": ["**/vendor/*.js"],
     "rules": {
         "indent": [
             "error",
@@ -19,6 +20,9 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-var": "error",
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "no-undef": ["error", { "typeof": true }]
     }
 }
