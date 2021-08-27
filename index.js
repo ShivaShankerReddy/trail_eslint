@@ -1,5 +1,4 @@
-let hello = 'hello world';
-
+var hello = "hello world";
 
 console.log('hello:   ', hello);
 
